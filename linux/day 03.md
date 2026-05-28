@@ -2,3 +2,4 @@
 git init =initialize  repository 
 git add . =stage changes 
 git commit = save point 
+git push = upload to git hub 
