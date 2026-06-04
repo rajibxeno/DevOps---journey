@@ -1,0 +1,107 @@
+core cloud beifits :-
+01.high availability
+02.scalability 
+03.elasticity
+04.realiability
+05.predictibility
+06.security
+07.governance
+08.manageability
+
+01.:- high availability :- 
+services available 24/7 
+e.g. :- amazon , netflix , banking services
+
+02. scalability :- 
+it will increase or decrease resources 
+        i. vertical scaling (to increase ram and cpu )
+
+        ii.horizontal scaling (for adding more servers )
+
+03. elasticity :- automatic scaling according to demand 
+e.g. 100 users ---> 1000 users ----> azure will iccrease scaling automatically as per demand 
+increase resources and when traffic will be less automatically resources will be less
+
+04. realiability :- 
+service will runs  actively after system fails .
+e.g. if one data center will be down then automatically second data centerv continue its service 
+
+05. predictability  :- 
+it estimates  performance and cost .
+e.g. it estimates cost before azure cost calculator . 
+
+06. security :- 
+to protect data and applications 
+e.g. MFA (multifactor authentications)
+    encryption 
+    firewall 
+
+07. governance :- 
+it applies rules and policies 
+e.g. it gives permission to developer only create VM 
+
+08.manageability :- 
+to manage resources easily 
+  e.g.  azure portal 
+         azure CLI 
+         power shell
+
+
+capex vs opex :- 
+capex (capital expenditure ) :- own data center 
+opex (operatioanl expenditure ) :- rent or pay for that what they use 
+ in capex  one time big investement needed 
+ e.g.   buying server 
+        making data center 
+        buying network devices  
+in opex pay for that as much you use 
+e.g.     azure Vm 
+        AWS EC2
+        azure storage 
+
+
+        capex :- buy                                    opex :- rent
+                high upfront cost                               low upfront cost 
+                own hardware                                    cloud provider hardware 
+                maintenance yours                               maintennance provider 
+
+
+
+ Consumption - based model  :- 
+ golden rule of cloud 
+ use what you need , pay for that what you use. 
+
+Azure regions :- 
+a geographical area in which one or more data centers are available known as azure regions 
+e.g.        east us 
+            central india 
+            west europe 
+            south india 
+
+benifits :- 
+low latency (fast performance ) , betterv performance , local complience requirements .
+
+Data centers :- a physical building in which servers are connected known as data centers .
+
+availability zone :- 
+in region different physically separated locations  ,  it makes servers highly available  and fault - tolerant .
+if one zone fails second zone will automatically cotinue its work . 
+
+
+data center :-       physical building 
+region :-            area containing one or more data centers 
+availability zone :-  backup locations inside a region 
+
+Resources group :- 
+a logical container used to manage and organizes azure resources . 
+e.g. one folder contains many files
+like game ;- free fire 
+            pubg 
+            call of duty 
+
+ benifits :- resources organized
+            easy management and deletion 
+            applies access control 
+ 
+
+
