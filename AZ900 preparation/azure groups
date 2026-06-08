@@ -1,0 +1,57 @@
+azure resources :- servises creats in azure known as azure Resources
+e.g. :- virtual machine 
+        storage account
+        SQL data base
+        load balancer
+
+azure subscription :- azure 's billing account is known as azure subscription 
+uses ;- tracking bills 
+        managing resources
+        acces control
+
+management group :- a management group is a container that helps organize and manage multiple Azure  subscription.
+it allows administrators to apply policies , acces , control  , and compliance requirements across multiple subscriptions .
+( management group > subscriptions > resource group > resources )
+ 
+ region pairs :- a region pair consists of two azure region in the same geography that are linked 
+ together for disaster recovery purposes .
+ benefits :- disaster recovery
+            business contunity 
+            data replication 
+            improved reliability 
+    e.g. :-  if one region becomes unavailable , services can continue from the paired region .
+
+ availability ZONES :- available zones are physically separated locations  within an azure region .
+    each availability zone has :- independent power 
+                                  independent cooling 
+                                  independent networking 
+if one zone fails another will continue runnning .
+it protects against data center failures . 
+benefits :- high availability
+            fault tolerance 
+            disaster recovery support
+
+ availability sets :- 
+ availability sets are used to protect virtual machines from hardware failures  and maintainence events . 
+
+ azure distributes VMS across different :- fault domain , update domain .
+
+fault domain :- protect against hardware failures .
+e.g. if one server rack fails , other VMs remain available .
+
+update domain :- protects against planned maintainence . 
+e.g. :- when azure updates one host , not all VMS are restart at the same time .
+
+benefits :- improved VM availability 
+            reduced downtime 
+            protection from hardware and maintainence issues 
+
+    availability sets are mainely used for VMs .
+
+       availability zone                                     vs                     availability sets 
+       @ different physical locations                             @same region 
+       @protects against data center failures                     @ protect against hardware / update failure 
+       @works across zones                                        @ works across fault /update domains 
+       @ higher availability                                      @ VM - level availability.
+                           ---------------                    -----------------
+                           
