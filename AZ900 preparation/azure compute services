@@ -1,0 +1,73 @@
+virtual machine (VM ):-
+     a virtual machine is a software based computer running in cloud . 
+a vm provides :- CPU, RAM , STORAGE , OPERATING SYSTEM  .
+uses :- hosting websites 
+        testing environments 
+        running applications 
+ 
+ {vm means clouds computer }
+
+VIRTUAL MACHINE SCALE SETS (VMSS) :-
+  vmss allows azure to automatically create and manage multiple  VM instances .
+{automatically increase or decrease vm based on its demand }
+benefits :- automatic scalling 
+            high availability 
+            load distribution 
+    (vmss = automatic scalling of vm .)
+
+    CONTAINERS :- 
+     containers package an application with all its dependencies . 
+     benefits :- fast startup 
+                light weight 
+                consistent environment
+                same app works everywhere application + dependencies 
+
+    e.g. popular container platform =  docker 
+
+    AZURE FUNCTIONS :-  azure functions is a serverless computing service . you only write codes .
+    azure manages :- servers 
+                     scalling 
+                     infrastructure 
+        e.g. :- when a file is uploaded 
+                file upload >>>>> azure function runs >>>>. send emails 
+
+                difference between VM and container 
+                vm                 vs                container 
+                ________________________________________________
+            heavier                 |       lightweight 
+            full os included        |       shares host OS 
+            slower startup          |       fast startup 
+            more Resources          |       less resources 
+
+
+AZURE APP SERVICE :- 
+ azure app service is a fully managed platform for hosting web applications , APIs , and mobile beckends .
+ benefits :- no server management 
+            automatic scalling 
+            built in security 
+    {host websites without managing servers }
+
+    AZURE CONTAINER INSTANCES  (ACI) :- 
+    azure container instances allow you to run containers directly in azure without managing virtual machines .
+in container = container >>>> vm >>>>> azure 
+in ASI = container >>>>> azure 
+
+AZURE networking ;- 
+ 
+ virtual network (vnet ) :- a virtual network is a private network in azure that allows azure resources to communicate securely .
+ as like home wifi , azure vnet . 
+ vms , databases , apps , communicates under one Vnet . 
+
+ SUBNET ::- a small network inside vnet .
+
+ {vnet = large network 
+ subnet = small network inside vnet } 
+
+ NETWORK SECURITY GROUP (NSG) :- 
+ NSG is used to control inbound and outbound network traffic .
+ {nsg = it decides who will allow or will rejected. }
+
+ VIRTUAL PRIVATE NETWORK (VPN ):- 
+  method of secure connection between user and developer .
+
+  {vnet is a network , while vpn is a secure connection to a network}. 
