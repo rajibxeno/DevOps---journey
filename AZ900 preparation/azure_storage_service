@@ -1,0 +1,47 @@
+B L OB :- (BINARY LARGE OBJECT)
+used for :- image and videos ,pdf , backups , document , storing in cloud 
+{blob storage is used for unstructured data . }
+
+azure file storage :- used for shared files and folders 
+e.g. :- everyone van use one shared file 
+
+queue storage :- used wehen apk need to exchange message . 
+{queue storage is used for message processing .}
+
+table storage :- used to store structured no SQL data .
+e.g. :- user id          -            name  
+            100                     rajibsahu
+            101                     amit sahu 
+
+AZURE DATA BASES :- 
+azure SQl data base :- microsoft sql  server in the cloud . used for structured data .
+e.g.:- 
+         ID      -       name          -        salary 
+         01             rajib sahu              50k 
+         02             amit sahu               60k
+    
+    azure cosmos DB :- 
+    used for ;-global applications  
+              massive scale 
+              no SQl data 
+        
+         azure SQl DB                          vs                       cosmos DB 
+    SQL                                         |                     no SQL 
+    structured data                             |           flexible data 
+    tables and rows                             |           JSON - like documents 
+
+LOad balancer :- 
+if multiple users go through a single VM then its server may slow so in that situation load balancer distributes
+incoming traffics across multiple servers / VMs .
+benefits :- better performance 
+            high availability
+            no single server overload 
+    
+    CONTENT DELIVERY NETWORK (CDN):-
+    if different country's network /server wants to connect with another country's server  the it have to connect
+    with nearest CDN server for faster delivery of data . 
+    {cdn stores copies of content closer  to users for faster delivery .}
+    benefits :- faster loading 
+                better user experience 
+                reduced load on main server .
+                 
